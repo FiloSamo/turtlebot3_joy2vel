@@ -22,3 +22,12 @@ cd ~/<workspace_name>
 rosdep install -i --from-path src --rosdistro humble -y
 colcon build
 ```
+# How to use
+
+First of all run the . install/local_setup.bash file inside the package folder.
+Then run the Joy package and the turtlebot3_joy2vel package:
+
+```
+ros2 run joy game_controller_node 
+ros2 run turtlebot3_joy2vel translator
+```
