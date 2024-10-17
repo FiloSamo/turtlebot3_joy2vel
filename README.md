@@ -8,7 +8,7 @@ The turtlebot3_joy2vel package converts the data published on the /joy topic int
 it publishes it in the /cmd_vel topic used by the turtlebot3 to set the linear and angular velocity.
 
 # Installation
-Create a new package folder named turtlebot3_joy2vel inside the src folder in the workspace, then you should clone the github directory:
+Move to the src folder in the workspace, then clone the github directory:
 
 ```
 cd ~/<workspace_name>/src
